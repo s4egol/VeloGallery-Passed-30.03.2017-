@@ -1,0 +1,21 @@
+﻿
+    <div class="row">
+        <div class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-xs-offset-5 col-lg-2 col-md-2 col-sm-3 col-xs-4">
+            <select class="selectpicker show-tick form-control" ng-model="albums.selected" ng-change="getImages()"
+                ng-options="option.name for option in albums.available track by option.id"></select>
+        </div>
+    </div>
+    <div class="row" ng-controller="IndexController">
+        <div class="col-lg-offset-1 col-lg-10">
+            <div ng-repeat="img in data" class="repeat col-lg-2">
+                <h3><label class="label label-default">{{img.Name}}</label></h3>
+                <button class="btn btn-default" ng-click="remove(img.Url)">Delete</button>
+                <img src="{{img.Url}}" style="width: 200px; height: 200px"/>
+            </div>
+        </div>
+    </div>
+    <!--div class="grid">
+        <div ng-repeat="img in data" class="repeat">
+            <label for="{{img.Name}}" class="grid-item"><span class="closebtn" ng-click="remove(img.Url)">&times;</span><img src="{{img.Url}}" /></label>
+        </div>
+    </!--div-->

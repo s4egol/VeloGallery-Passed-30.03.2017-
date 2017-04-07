@@ -1,0 +1,10 @@
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Vel.Tests\obj\Debug\Vel.Tests.csprojResolveAssemblyReference.cache
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Vel.Tests\bin\Debug\Vel.Tests.dll
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Vel.Tests\bin\Debug\Vel.Tests.pdb
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Vel.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Vel.Tests\bin\Debug\nunit.framework.dll
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Vel.Tests\bin\Debug\WebDriver.dll
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Vel.Tests\bin\Debug\nunit.framework.xml
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Vel.Tests\bin\Debug\WebDriver.xml
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Vel.Tests\obj\Debug\Vel.Tests.dll
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Vel.Tests\obj\Debug\Vel.Tests.pdb

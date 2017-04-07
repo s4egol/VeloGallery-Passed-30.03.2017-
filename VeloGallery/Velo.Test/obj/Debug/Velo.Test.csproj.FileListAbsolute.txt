@@ -1,0 +1,9 @@
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Velo.Test\bin\Debug\Velo.Test.dll
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Velo.Test\bin\Debug\Velo.Test.pdb
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Velo.Test\bin\Debug\nunit.framework.dll
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Velo.Test\bin\Debug\WebDriver.dll
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Velo.Test\bin\Debug\nunit.framework.xml
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Velo.Test\bin\Debug\WebDriver.xml
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Velo.Test\obj\Debug\Velo.Test.csprojResolveAssemblyReference.cache
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Velo.Test\obj\Debug\Velo.Test.dll
+C:\Users\s4egol\Downloads\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\Velo.Test\obj\Debug\Velo.Test.pdb

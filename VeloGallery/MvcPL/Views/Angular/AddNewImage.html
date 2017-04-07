@@ -1,0 +1,17 @@
+﻿<div class="row">
+    <div class="col-lg-offset-2 col-lg-8">
+        <div class="col-lg-3 col-md-4 col-sm-5 col-xs-4">
+            <input class="form-control" type="file" fileread="img.data" required /> <br/>
+            <input class="form-control" type="text" ng-model="img.name" placeholder="Input image name..." required /> <br />
+            <textarea class="form-control" ng-model="img.description" rows="2" placeholder="Input image description..."></textarea> <br />
+            <select class="selectpicker show-tick form-control" ng-model="albums.selected"
+                    ng-options="option.name for option in albums.available track by option.id"></select>
+            <h3><label class="label label-default">Is tradable:<input type="checkbox" ng-model="img.isTradable" /></label></h3>
+            <input class="btn btn-default" type="button" value="add" ng-click="add()" />
+        </div>
+        <div class="col-lg-offset-2 col-lg-2">
+            <h3><label class="label label-default" ng-bind="img.name"></label></h3>
+            <img src="{{img.data}}" style="width: 300px; height:300px" />
+        </div>
+    </div>
+</div>

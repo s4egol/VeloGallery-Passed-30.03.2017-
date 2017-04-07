@@ -1,0 +1,13 @@
+﻿<form ng-submit="register()">
+    <div class="row">
+        <div class="col-lg-offset-5 col-lg-2">
+            <h3><label class="label label-default" for="emailAddress">Email:</label></h3>
+            <input class="form-control" id="emailAddress" type="text" ng-model="registerForm.emailAddress" required />
+            <h3><label class="label label-default" for="password">Password:</label></h3>
+            <input class="form-control" id="password" type="password" ng-model="registerForm.password" pattern="^[A-Za-z0-9]+$" placeholder="Latin letters and numbers" required />
+            <h3><label class="label label-default" for="confirmPassword">Confirm Password:</label></h3>
+            <input class="form-control" id="confirmPassword" type="password" ng-model="registerForm.confirmPassword" pattern="^[A-Za-z0-9]+$" placeholder="Latin letters and numbers" required />
+            <h2><button class="btn btn-default" type="submit">Register</button></h2>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,23 @@
+﻿<div ng-controller="LoginController">
+    <div ng-show="!loginForm.loggedIn" class="login">
+        <form ng-submit="login()">
+            <div class="container">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-5">
+                    <input class="form-control" type="email" ng-model="loginForm.emailAddress" id="emailAddress" required placeholder="qwe@epam.com" />
+                </div>
+            </div>
+            <div class="container">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-5">
+                        <input class="form-control" type="password" id="password" ng-model="loginForm.password" required placeholder="password" pattern="^[A-Za-z0-9]+$" />
+                    </div>
+            </div>
+            <button class="btn btn-default" type="submit" id="login">Login</button>
+            <a href="/Angular/register" id="register">Register</a>
+
+        </form>
+    </div>
+    <div ng-show="loginForm.loggedIn" class="greeting">
+        <h3><label class="label label-success">Hi, {{loginForm.emailAddress}}!</label></h3>
+        <button ng-click="logout()" class="btn btn-default logout">Logout</button>
+    </div>
+</div>

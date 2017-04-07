@@ -1,0 +1,63 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html ng-app="MyGalleryModule">
+
+<head>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Scripts/GalleryModule.js"></script>
+    <link href="~/Content/style/style.css" rel="stylesheet" />
+    <script src="~/Scripts/angular-cookies.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap.js"></script>
+    <script src="Scripts/jquery-1.9.1.js"></script>
+</head>
+
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+
+<body>
+
+    <header id="header">
+        <br /> <br />
+        <div ng-include="'/Views/Angular/Login.html'"></div>
+    </header>
+    <nav class="navbar navbar-default navli navcount" role="navigation">
+        <div class="container">
+            <ul class="nav navbar-nav col-lg-offset-4">
+                <li class="active"><a href="/Angular/Text">Home</a></li>
+                <li><a href="/Angular/gallery">Gallery</a></li>
+                <li class="drop">
+                    <a href="">Manage albums</a>
+                    <div class="dropdownContain">
+                        <div class="dropOut">
+                            <ul>
+                                <li><a href="/Angular/AddImg"><label class="label label-default">Add Image</label></a></li>
+                                <li><a href="/Angular/CreateNewAlbum"><label class="label label-default">Create album</label></a></li>
+                                <li><a href="/Angular/myAlbums"><label class="label label-default">My albums</label></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div ng-view>Loading...</div>
+    <br /><br /><br />
+    <div class="navbar navbar-default  navbar-fixed-bottom">
+    <footer>
+        <center><h4>Copyright &copy; velo.by, 2016-2017. All rights reserved.</h4></center>
+    </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+
+</html>
